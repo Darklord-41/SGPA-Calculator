@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h3>Calculate your SGPA!</h3>
+      </header>
+      <div class="main">
+        <div class="sub">
+          <p>Enter subject name</p>
+        </div>
+        <div class="subbox">
+          <input type="text" name="subject" id="subject" />
+        </div>
+        <div class="cred">
+          <p>Enter subject credits</p>
+        </div>
+        <div class="credbox">
+          <input type="text" name="credit" id="credit" />
+        </div>
+        <div class="grade">
+          <p>Enter subject grade</p>
+        </div>
+        <div class="gradebox">
+            <input list="gradelist" name="grade" id="grade"/>
+                <datalist id="gradelist">
+                    <option id="A+">A+</option>
+                    <option id="A">A</option>
+                    <option id="B+">B+</option>
+                    <option id="B">B</option>
+                    <option id="C+">C+</option>
+                    <option id="C">C</option>
+                    <option id="D">D</option>
+                    <option id="E">E</option>
+                    <option id="F">F</option>
+                    <option id="I">I</option>
+                </datalist>
+        </div>
+        <div class="addbtn">
+          <button class="add" onclick="addSubject()" >
+            Add subject to list
+          </button>
+        </div>
+      </div>
+      <div class="main">
+        <div id="sublist">
+          <table id="table">
+            <tr>
+              <th>Subject</th>
+              <th>Credit</th>
+              <th>Grade</th>
+              <th>Delete</th>
+            </tr>
+          </table>
+        </div>
+        <div class="calcbtn">
+          <button class="submit" type="submit">
+            Calculate your SGPA
+          </button>
+        </div>
+      </div>
+    </main>
+      <script src="script.js"></script>
+  </body>
+</html>
