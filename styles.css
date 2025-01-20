@@ -1,6 +1,8 @@
   body{
     padding: 25px;
     font-size: 20px;
+    max-width: 900px;
+    margin: auto;
   }
   .title {
       color: #5C6AC4;
@@ -77,9 +79,11 @@
   }
   th, td{
     height: 40px;
+    width: 16vw;
   }
   td{
     text-align: center;
+    padding: 0 5px 0;
   }
   .remove-btn{
     color: white;
@@ -88,7 +92,17 @@
     border: none;
     padding: 5px 10px;
     width: 100%;
+    margin-bottom: 5px;
   }
   .remove-btn:hover{
     background-color: rgb(208, 44, 44);
+  }
+  #result{
+    font-size: 25px;
+  }
+  #resbox{
+    margin: 0;
+  }
+  #clrbtn:hover{
+    background-color: lightcoral;
   }

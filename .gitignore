@@ -1,0 +1,36 @@
+# Operating System files
+.DS_Store           # macOS system file
+Thumbs.db           # Windows system file
+ehthumbs.db         # Windows Explorer thumbnail cache
+
+# Logs
+*.log               # Log files
+
+# IDE and editor-specific files
+.vscode/            # Visual Studio Code
+.idea/              # JetBrains IDEs (e.g., WebStorm, IntelliJ)
+*.suo               # Visual Studio User Options
+*.ntvs*             # Node.js Tools for Visual Studio
+*.njsproj           # Node.js Project files
+*.sln               # Visual Studio Solution files
+*.swp               # Swap files from vi or vim
+
+# Temporary files and backups
+*.tmp               # Temporary files
+*.bak               # Backup files
+*.old               # Old files
+*.orig              # Merge conflict files
+
+# Environment and configuration files
+.env                # Environment variables
+.env.local          # Local environment variables
+.env.*              # Other environment variable files
+
+# Other generated files
+*.gzip              # Compressed files
+*.zip               # Archived files
+*.tar               # Archived files
+*.gz                # Compressed files
+
+# Cache files
+.cache/             # Cache directory

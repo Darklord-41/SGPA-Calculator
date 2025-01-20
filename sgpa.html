@@ -34,7 +34,7 @@
                     <option id="B">B</option>
                     <option id="C+">C+</option>
                     <option id="C">C</option>
-                    <option id="D">D</option>
+                    <option id ="D">D</option>
                     <option id="E">E</option>
                     <option id="F">F</option>
                     <option id="I">I</option>
@@ -57,9 +57,17 @@
             </tr>
           </table>
         </div>
+        <div id="resbox">
+          <p id="result"></p>
+        </div>
         <div class="calcbtn">
-          <button class="submit" type="submit">
+          <button class="submit" type="submit" onclick="giveResult()">
             Calculate your SGPA
+          </button>
+        </div>
+        <div id="clrbox">
+          <button id="clrbtn" onclick="clearResult()">
+            Clear Result
           </button>
         </div>
       </div>
