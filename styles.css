@@ -60,14 +60,16 @@
   }
   .add:hover{
     cursor: pointer;
-    transform: scale(.96);
-    background-color: rgb(207, 255, 233);
+    transform: scale(.98);
+    background-color: rgb(4, 165, 93);
+    color: rgb(249,249,246);
   }
 
   .submit:hover{
     cursor: pointer;
-    transform: scale(.96);
-    background-color: rgb(207, 255, 233);
+    transform: scale(.98);
+    background-color: rgb(4, 165, 93);
+    color: rgb(249,249,246);
   }
 
   datalist{
@@ -111,7 +113,7 @@
   .remove-btn:hover{
     background-color: rgb(196, 1, 1);
     color: rgb(249, 249, 246);
-    transform: scale(.96);
+    transform: scale(.98);
   }
   #result{
     font-size: 25px;
@@ -123,4 +125,5 @@
     background-color: rgb(196, 1, 1);
     color: rgb(249, 249, 246);
     cursor: pointer;
+    transform: scale(.98);
   }
